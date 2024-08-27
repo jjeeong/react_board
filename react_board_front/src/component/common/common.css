@@ -1,0 +1,65 @@
+.header {
+  background: #9d50bb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6e48aa,
+    #9d50bb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6e48aa,
+    #9d50bb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 20px;
+}
+.header > div {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+}
+
+.site-name {
+  font-size: 36px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav > li > a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #ccc;
+  padding: 20px;
+}
+.footer > div {
+  width: 1200px;
+  margin: 0 auto;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.main-wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
