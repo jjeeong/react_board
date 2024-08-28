@@ -53,3 +53,79 @@
 .board-content {
   min-height: 300px;
 }
+.board-write-wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.board-write-wrap > h3 {
+  text-align: center;
+  color: #6e48aa;
+  margin: 50px 0;
+}
+.board-write {
+  width: 600px;
+  margin: 50px auto;
+}
+.input-wrap {
+  padding: 10px 0px;
+}
+.input-wrap > label {
+  display: block;
+  color: #6e48aa;
+  padding: 5px 0px;
+}
+.input-wrap > input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+.input-wrap > textarea {
+  width: 100%;
+  height: 300px;
+  resize: none;
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-sizing: border-box;
+  outline: none;
+}
+.input-wrap > button {
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  background-color: #6e48aa;
+  color: #fff;
+  cursor: pointer;
+}
+.link-zone {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.link-zone > * {
+  display: block;
+  text-decoration: none;
+  width: 100px;
+  padding: 10px 20px;
+  background-color: #6e48aa;
+  color: #fff;
+  outline: none;
+  border: none;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 16px;
+}
+.board-modify-wrap {
+  width: 1200px;
+  margin: 50px auto;
+}
+.board-modify-wrap > h3 {
+  color: #6e48aa;
+  text-align: center;
+}
+.board-modify {
+  width: 600px;
+  margin: 30px auto;
+}
